@@ -72,9 +72,9 @@ export default function GradeManagementSystem() {
       const mockStudents = [
         {
           id: 1,
-          firstName: "John",
-          lastName: "Doe",
-          email: "john.doe@example.com",
+          firstName: "Энхболд",
+          lastName: "Бат-Эрдэнэ",
+          email: "batbold.enkh@mailer.mn",
           grades: {
             "1": { attendance: 8, activity: 7, midterm: 25, final: 35 },
             "2": { attendance: 9, activity: 8, midterm: 27, final: 36 },
@@ -84,9 +84,9 @@ export default function GradeManagementSystem() {
         },
         {
           id: 2,
-          firstName: "Alice",
-          lastName: "Smith",
-          email: "alice.smith@example.com",
+          firstName: "Тэмүүжин",
+          lastName: "Сарангэрэл",
+          email: "temuujin.saran@inbox.mn",
           grades: {
             "1": { attendance: 10, activity: 9, midterm: 28, final: 38 },
             "2": { attendance: 9, activity: 10, midterm: 29, final: 39 },
@@ -96,9 +96,9 @@ export default function GradeManagementSystem() {
         },
         {
           id: 3,
-          firstName: "Bob",
-          lastName: "Johnson",
-          email: "bob.johnson@example.com",
+          firstName: "Батсүх",
+          lastName: "Мөнхцэцэг",
+          email: "munkhtsetseg.batsukh@gmail.com",
           grades: {
             "1": { attendance: 7, activity: 8, midterm: 22, final: 32 },
             "2": { attendance: 8, activity: 7, midterm: 24, final: 34 },
@@ -108,15 +108,42 @@ export default function GradeManagementSystem() {
         },
         {
           id: 4,
-          firstName: "Sarah",
-          lastName: "Lee",
-          email: "sarah.lee@example.com",
+          firstName: "Жавхлан",
+          lastName: "Нарантуяа",
+          email: "javkhlan.narantuya@yahoo.com",
           grades: {
             "1": { attendance: 9, activity: 10, midterm: 29, final: 39 },
             "2": { attendance: 10, activity: 9, midterm: 28, final: 38 },
             "3": { attendance: 8, activity: 8, midterm: 25, final: 35 },
             "4": { attendance: 9, activity: 9, midterm: 27, final: 37 },
           },
+          
+        },
+        {
+          id: 5,
+          firstName: "Ганболд",
+          lastName: "Төгөлдөр",
+          email: "tuguldur.ganbold@outlook.com",
+          grades: {
+            "1": { attendance: 10, activity: 10, midterm: 29, final: 39 },
+            "2": { attendance: 7, activity: 6, midterm: 26, final: 38 },
+            "3": { attendance: 8, activity: 7, midterm: 30, final: 30 },
+            "4": { attendance: 9, activity: 9, midterm: 27, final: 33 },
+          },
+          
+        },
+        {
+          id: 6,
+          firstName: "Сүхбат",
+          lastName: "Уянга",
+          email: "suhee@gmail.com",
+          grades: {
+            "1": { attendance: 5, activity: 10, midterm: 29, final: 31 },
+            "2": { attendance: 9, activity: 9, midterm: 25, final: 38 },
+            "3": { attendance: 7, activity: 8, midterm: 20, final: 35 },
+            "4": { attendance: 9, activity: 6, midterm: 27, final: 40 },
+          },
+          
         },
       ];
 
